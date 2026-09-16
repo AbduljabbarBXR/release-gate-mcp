@@ -1,6 +1,6 @@
 {
   "name": "release-gate-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Release intelligence for AI agents. Analyzes changes, detects breaking updates, generates release notes, and recommends the next semver bump.",
   "type": "module",
   "main": "src/index.js",

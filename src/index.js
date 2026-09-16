@@ -6,11 +6,17 @@ import { execSync } from "node:child_process";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 
-const server = new McpServer({ name: "release-gate-mcp", version: "0.1.0" });
+const pkg = JSON.parse(readFileSync(new URL("../package.json", import.meta.url), "utf8"));
+const server = new McpServer({ name: pkg.name, version: pkg.version });
 
 function git(cwd, args) {
   try {
-    return execSync(`git ${args}`, { cwd, encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+    return execSync(`git ${args}`, {
+      cwd,
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+      stdio: ["ignore", "pipe", "ignore"],
+    });
   } catch {
     return "";
   }
