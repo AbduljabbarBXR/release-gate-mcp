@@ -1,0 +1,21 @@
+{
+  "name": "release-gate-mcp",
+  "version": "0.1.0",
+  "description": "Release intelligence for AI agents. Analyzes changes, detects breaking updates, generates release notes, and recommends the next semver bump.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "release-gate-mcp": "src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": ["mcp", "model-context-protocol", "agents", "tawakkul-labs"],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  }
+}
