@@ -1,5 +1,7 @@
 # release-gate-mcp
 
+[![npm](https://img.shields.io/npm/v/release-gate-mcp)](https://www.npmjs.com/package/release-gate-mcp) [![license](https://img.shields.io/npm/l/release-gate-mcp)](LICENSE) [![MCP](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io) [![Tawakkul Labs](https://img.shields.io/badge/by-Tawakkul%20Labs-0f766e)](https://tawakkul-labs.co.ke)
+
 Release intelligence for AI agents. Analyzes the changes in a repository, detects breaking updates, generates release notes, and recommends the next semantic version. Releases stop being guesses.
 
 Built as an MCP server, so it works in any platform that speaks Model Context Protocol.
@@ -36,3 +38,7 @@ npm install -g release-gate-mcp
 ## License
 
 MIT. Part of the Tawakkul Labs MCP family.
+
+---
+
+Links: [npm](https://www.npmjs.com/package/release-gate-mcp) | [GitHub](https://github.com/AbduljabbarBXR/release-gate-mcp) | [Tawakkul Labs](https://tawakkul-labs.co.ke)

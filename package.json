@@ -1,6 +1,6 @@
 {
   "name": "release-gate-mcp",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Release intelligence for AI agents. Analyzes changes, detects breaking updates, generates release notes, and recommends the next semver bump.",
   "type": "module",
   "main": "src/index.js",
@@ -23,5 +23,14 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.0"
   },
-  "mcpName": "io.github.AbduljabbarBXR/release-gate-mcp"
+  "mcpName": "io.github.AbduljabbarBXR/release-gate-mcp",
+  "author": "AbduljabbarBXR",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbduljabbarBXR/release-gate-mcp.git"
+  },
+  "homepage": "https://tawakkul-labs.co.ke",
+  "bugs": {
+    "url": "https://github.com/AbduljabbarBXR/release-gate-mcp/issues"
+  }
 }
